@@ -14,12 +14,14 @@ body {
     font-family: 'Montserrat Alternates'
 }
 a {
-   color: white;
+   color: rgb(64, 88, 92);
+   font-size: 1.5em;
 }
 .page1_background {
     height: 100%;
     width:100%;
-    background-image: url(https://images.unsplash.com/photo-1504276048855-f3d60e69632f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2785&q=80);
+    
+    background-image: url(https://images.unsplash.com/photo-1519160558534-579f5106e43f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,19 +33,140 @@ a {
     justify-items: center;
 }
 .site_name {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 3em;
     margin-top: 50px;
     
 }
-.page1_sub {
-    color: white;
-    margin-bottom: 50px;
+.page1_sub:hover, .page1_sub:active {
+    text-decoration: underline;
+}
+
+
+ .page1_sub {
+     color: rgb(43, 91, 97); 
+    margin-bottom: 90px;
+    
+    margin-right: 10px; 
 }
 .menu {
     display: flex;
     flex-direction: row;
-    width: 70%;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+   
+    
 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+     font-size: 0.7em; 
+    background-color: #ffffff;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown_content {
+    display: block; 
+}
+
+/* page2..................................... */
+
+
+
+/* CSS breakpoints */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 300px) {
+    
+
+    .site_name {
+        font-size: 2em; 
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+    .site_name {
+        font-size: 6em;
+        
+    }
+    .page1_sub {
+        font-size: 2em;
+        
+    }
+    .menu {
+        margin-bottom: 35px;
+    }
+    
+    a {
+        color: rgb(6, 36, 48);
+    }
+    .dropdown_content {
+        font-size: 0.5em;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+
+    .site_name {
+        margin-top: 30px;
+        margin-right: 580px;
+        font-size: 4em;
+    }
+
+   .menu {
+       margin-bottom: 0;
+       flex-direction: column;
+       margin-left: 1350px;
+       align-items: flex-start;
+       gap: 50px;
+   }
+
+   a {
+       color: white;
+   }
+
+   .page1_sub:hover, .page1_sub:active {
+    text-decoration: underline white;
+}
+   .dropdown_content {
+       background-color: rgb(62, 87, 97);
+   }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .site_name {
+        margin-top: 40px;
+        font-size: 5em;
+        margin-right: 700px;
+    }
+
+    .menu {
+        margin-left: 1850px; 
+    }
+
+    
 }
