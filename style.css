@@ -1,172 +1,308 @@
-@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Archivo:ital,wght@1,100&family=Barlow+Semi+Condensed:wght@300&family=Henny+Penny&family=Josefin+Sans&family=Montserrat+Alternates&family=Open+Sans&family=Righteous&family=Shantell+Sans&family=Stick+No+Bills&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Archivo:ital,wght@1,100&family=Barlow+Semi+Condensed:wght@300&family=Henny+Penny&family=Josefin+Sans&family=Montserrat+Alternates&family=Open+Sans&family=Righteous&family=Shantell+Sans&family=Stick+No+Bills&display=swap");
 
 * {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 body {
-    height: 100vh;
-    width: 100vw;
-    font-family: 'Montserrat Alternates'
+  height: 100vh;
+  width: 100vw;
+  font-family: "Montserrat Alternates";
 }
 a {
-   color: rgb(64, 88, 92);
-   font-size: 1.5em;
+  color: rgb(64, 88, 92);
+  font-size: 1.5em;
 }
 .page1_background {
-    height: 100%;
-    width:100%;
-    
-    background-image: url(https://images.unsplash.com/photo-1519160558534-579f5106e43f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 100%;
+  width: 100%;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    justify-items: center;
+  background-image: url(https://images.unsplash.com/photo-1519160558534-579f5106e43f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
 }
 .site_name {
-    color: rgb(255, 255, 255);
-    font-size: 3em;
-    margin-top: 50px;
-    
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  margin-top: 50px;
 }
-.page1_sub:hover, .page1_sub:active {
-    text-decoration: underline;
+.page1_sub:hover,
+.page1_sub:active {
+  text-decoration: underline;
 }
 
+.page1_sub {
+  color: rgb(43, 91, 97);
+  margin-bottom: 90px;
 
- .page1_sub {
-     color: rgb(43, 91, 97); 
-    margin-bottom: 90px;
-    
-    margin-right: 10px; 
+  margin-right: 10px;
 }
 .menu {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-around;
-    justify-items: center;
-    align-items: center;
-   
-    
-
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
-  
 
 .dropdown_content {
-    display: none;
-    position: absolute;
-     font-size: 0.7em; 
-    background-color: #ffffff;
-    min-width: 120px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
+  display: none;
+  position: absolute;
+  font-size: 0.7em;
+  background-color: #ffffff;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
 }
 
 .dropdown:hover .dropdown_content {
-    display: block; 
+  display: block;
 }
 
 /* page2..................................... */
+.destination {
+  margin: 20px;
+  color: rgb(27, 158, 158);
+  font-size: 2.5em;
+}
 
+.sub {
+  margin: 20px;
+  margin-bottom: 5px;
+  font-size: 2em;
+  color: rgb(64, 168, 168);
+  
+}
 
+.picture {
+  height: 180px;
+  width: 250px;
+  margin: 20px;
+  
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#main_pic_paris {
+  background-image: url(https://images.unsplash.com/photo-1590498418623-40431bd3b088?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80  );
+  
+}
+#pic1_paris {
+  background-image: url(https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+}
+#pic2_paris {
+  background-image: url(https://images.unsplash.com/photo-1459455356093-6495cff2a2c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2748&q=80);
+}
+#pic3_paris {
+  background-image: url(https://images.unsplash.com/photo-1576653764709-7d175299e6d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80);
+}
+
+#main_pic_prague {
+  background-image: url(https://images.unsplash.com/photo-1671190016058-953da872d017?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2748&q=80);
+}
+#pic1_prague {
+  background-image: url(https://images.unsplash.com/photo-1564511287568-54483b52a35e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80);
+}
+#pic2_prague {
+  background-image: url(https://images.unsplash.com/photo-1612714115064-69704a69d762?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1454&q=80);
+}
+#pic3_prague {
+  background-image: url(https://images.unsplash.com/photo-1556715371-6264bf5f03ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80);
+}
+
+#main_pic_sigiriya {
+    background-image: url(https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80);
+  
+}
+#pic1_sigiriya {
+  background-image: url(https://images.unsplash.com/photo-1566296314736-6eaac1ca0cb9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1856&q=80);
+}
+#pic2_sigiriya {
+  background-image: url(https://images.unsplash.com/photo-1567157802189-aadc856131dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1787&q=80);
+}
+#pic3_sigiriya {
+  background-image: url(https://images.unsplash.com/photo-1678914906530-86caef9f2fb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background-color: rgb(231, 248, 253);
+  height: auto;
+  width: auto;
+  margin: 20px;
+  padding: 10px;
+}
+.subcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-items: center;
+  align-items: center;
+  background-color: rgb(252, 252, 252);
+  height: auto;
+  width: auto;
+  margin: 15px;
+  padding: 10px;
+   
+}
+.subcard:hover {
+  background-color: rgb(187, 214, 214);
+  
+  
+}
+.main_text {
+  color: rgb(13, 93, 109);
+  font-size: 1.5em;
+}
+.page2_buttons {
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+      
+}
+.btn {
+  background-color: white;
+  margin-left: 10px; 
+  margin-right: 10px;
+}
+.page2a {
+  color: rgb(42, 133, 145);
+  margin: 10px;
+}
+.page2a:hover {
+  font-size: 2.1em;
+  color: rgb(104, 221, 241);
+}
+
+/* page3............................... */
 
 /* CSS breakpoints */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 300px) {
-    
-
-    .site_name {
-        font-size: 2em; 
-    }
+  .site_name {
+    font-size: 2em;
+  }
+  
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .site_name {
+    font-size: 6em;
+  }
+  .page1_sub {
+    font-size: 2em;
+  }
+  .menu {
+    margin-bottom: 35px;
+  }
+
+  a {
+    color: rgb(6, 36, 48);
+  }
+  .dropdown_content {
+    font-size: 0.5em;
+  }
+  /* page2....................... */
+  .cards_des {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50% ;
     
-    .site_name {
-        font-size: 6em;
-        
-    }
-    .page1_sub {
-        font-size: 2em;
-        
-    }
-    .menu {
-        margin-bottom: 35px;
-    }
+  }
+  #main_pic_paris {
+    width: 50%;
     
-    a {
-        color: rgb(6, 36, 48);
-    }
-    .dropdown_content {
-        font-size: 0.5em;
-    }
+  }
+  #main_pic_prague {
+    width: 50%;
+   
+  }
+  #main_pic_sigiriya {
+    width: 50%;
     
+  }
+  /* page3............................... */
+  
+  
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    
+  .site_name {
+    margin-top: 30px;
+    margin-right: 580px;
+    font-size: 4em;
+  }
 
-    .site_name {
-        margin-top: 30px;
-        margin-right: 580px;
-        font-size: 4em;
-    }
+  .menu {
+    margin-bottom: 0;
+    flex-direction: column;
+    margin-left: 1350px;
+    align-items: flex-start;
+    gap: 50px;
+  }
 
-   .menu {
-       margin-bottom: 0;
-       flex-direction: column;
-       margin-left: 1350px;
-       align-items: flex-start;
-       gap: 50px;
-   }
+  a {
+    color: white;
+  }
 
-   a {
-       color: white;
-   }
-
-   .page1_sub:hover, .page1_sub:active {
+  .page1_sub:hover,
+  .page1_sub:active {
     text-decoration: underline white;
-}
-   .dropdown_content {
-       background-color: rgb(62, 87, 97);
-   }
+  }
+  .dropdown_content {
+    background-color: rgb(62, 87, 97);
+  }
+  
+  /* page2....................... */
 
+  .cards_des {
+    display: grid;
+    grid-template-rows: auto auto auto ;
+    grid-template-columns: auto auto auto;
+    
+  }
+  /* page3............................... */
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .site_name {
+    margin-top: 40px;
+    font-size: 5em;
+    margin-right: 700px;
+  }
 
-    .site_name {
-        margin-top: 40px;
-        font-size: 5em;
-        margin-right: 700px;
-    }
-
-    .menu {
-        margin-left: 1850px; 
-    }
-
-    
+  .menu {
+    margin-left: 1850px;
+  }
+  /* page3............................... */
 }
